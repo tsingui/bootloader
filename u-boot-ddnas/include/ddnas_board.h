@@ -1,0 +1,25 @@
+/*
+ *
+ *  DDNAS Wireless Board  Description
+ * 
+ * 
+ * 
+ * 
+ */
+
+#if defined(CONFIG_DDNAS)
+
+#define DDNAS_RESET_BUTTON_GPIO	16
+#define DDNAS_USB_BUTTON_GPIO	15
+
+#define DDNAS_POWER_LED_GPIO	42
+#define DDNAS_USB_LED_GPIO	37
+#define DDNAS_INTERNET_LED_GPIO	43
+
+#define U_BOOT_IMAGE_HEARD	0x00ea0013
+#define U_BOOT_KWB_IMAGE_HEARD	0x0000005a
+#define FIRMWARE_IMAGE_HEARD	0x56190527
+#define QNAP_FIRMWARE_IMAGE_HEARD	
+
+
+#endif /* _CONFIG_DDNAS_H */

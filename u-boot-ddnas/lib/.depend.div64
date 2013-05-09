@@ -1,0 +1,6 @@
+div64.o: div64.c /home/lintel/u-boot-ddnas/include/linux/types.h \
+  /home/lintel/u-boot-ddnas/include/linux/config.h \
+  /home/lintel/u-boot-ddnas/include/linux/posix_types.h \
+  /home/lintel/u-boot-ddnas/include/linux/stddef.h \
+  /home/lintel/u-boot-ddnas/include/asm/posix_types.h \
+  /home/lintel/u-boot-ddnas/include/asm/types.h

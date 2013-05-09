@@ -1,0 +1,24 @@
+ns16550.o: ns16550.c /home/lintel/u-boot-ddnas/include/config.h \
+  /home/lintel/u-boot-ddnas/include/config_cmd_defaults.h \
+  /home/lintel/u-boot-ddnas/include/config_defaults.h \
+  /home/lintel/u-boot-ddnas/include/configs/ddnas.h \
+  /home/lintel/u-boot-ddnas/include/config_cmd_default.h \
+  /home/lintel/u-boot-ddnas/include/configs/mv-common.h \
+  /home/lintel/u-boot-ddnas/include/asm/arch/config.h \
+  /home/lintel/u-boot-ddnas/include/asm/arch/kw88f6281.h \
+  /home/lintel/u-boot-ddnas/include/asm/arch/kirkwood.h \
+  /home/lintel/u-boot-ddnas/include/asm/config.h \
+  /home/lintel/u-boot-ddnas/include/ns16550.h \
+  /home/lintel/u-boot-ddnas/include/linux/types.h \
+  /home/lintel/u-boot-ddnas/include/linux/config.h \
+  /home/lintel/u-boot-ddnas/include/linux/posix_types.h \
+  /home/lintel/u-boot-ddnas/include/linux/stddef.h \
+  /home/lintel/u-boot-ddnas/include/asm/posix_types.h \
+  /home/lintel/u-boot-ddnas/include/asm/types.h \
+  /home/lintel/u-boot-ddnas/include/watchdog.h \
+  /home/lintel/u-boot-ddnas/include/asm/io.h \
+  /home/lintel/u-boot-ddnas/include/asm/byteorder.h \
+  /home/lintel/u-boot-ddnas/include/linux/byteorder/little_endian.h \
+  /home/lintel/u-boot-ddnas/include/linux/byteorder/swab.h \
+  /home/lintel/u-boot-ddnas/include/linux/byteorder/generic.h \
+  /home/lintel/u-boot-ddnas/include/asm/memory.h
