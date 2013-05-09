@@ -1,0 +1,10 @@
+memsize.o: memsize.c /home/lintel/u-boot-ddnas/include/config.h \
+  /home/lintel/u-boot-ddnas/include/config_cmd_defaults.h \
+  /home/lintel/u-boot-ddnas/include/config_defaults.h \
+  /home/lintel/u-boot-ddnas/include/configs/ddnas.h \
+  /home/lintel/u-boot-ddnas/include/config_cmd_default.h \
+  /home/lintel/u-boot-ddnas/include/configs/mv-common.h \
+  /home/lintel/u-boot-ddnas/include/asm/arch/config.h \
+  /home/lintel/u-boot-ddnas/include/asm/arch/kw88f6281.h \
+  /home/lintel/u-boot-ddnas/include/asm/arch/kirkwood.h \
+  /home/lintel/u-boot-ddnas/include/asm/config.h

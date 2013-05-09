@@ -1,0 +1,534 @@
+env_embedded.o: /home/lintel/u-boot-ddnas/common/env_embedded.c \
+ /home/lintel/u-boot-ddnas/include/config.h \
+ /home/lintel/u-boot-ddnas/include/config_cmd_defaults.h \
+ /home/lintel/u-boot-ddnas/include/config_defaults.h \
+ /home/lintel/u-boot-ddnas/include/configs/ddnas.h \
+ /home/lintel/u-boot-ddnas/include/config_cmd_default.h \
+ /home/lintel/u-boot-ddnas/include/configs/mv-common.h \
+ /home/lintel/u-boot-ddnas/include/asm/arch/config.h \
+ /home/lintel/u-boot-ddnas/include/asm/arch/kw88f6281.h \
+ /home/lintel/u-boot-ddnas/include/asm/arch/kirkwood.h \
+ /home/lintel/u-boot-ddnas/include/asm/config.h \
+ /home/lintel/u-boot-ddnas/include/environment.h \
+ /home/lintel/u-boot-ddnas/include/compiler.h \
+ /usr/lib/gcc/i686-linux-gnu/4.6.1/include/stddef.h \
+ /usr/lib/gcc/i686-linux-gnu/4.6.1/include/stdint.h /usr/include/stdint.h \
+ /usr/include/features.h /usr/include/i386-linux-gnu/bits/predefs.h \
+ /usr/include/i386-linux-gnu/sys/cdefs.h \
+ /usr/include/i386-linux-gnu/bits/wordsize.h \
+ /usr/include/i386-linux-gnu/gnu/stubs.h \
+ /usr/include/i386-linux-gnu/gnu/stubs-32.h \
+ /usr/include/i386-linux-gnu/bits/wchar.h /usr/include/errno.h \
+ /usr/include/i386-linux-gnu/bits/errno.h /usr/include/linux/errno.h \
+ /usr/include/i386-linux-gnu/asm/errno.h /usr/include/asm-generic/errno.h \
+ /usr/include/asm-generic/errno-base.h /usr/include/stdlib.h \
+ /usr/include/i386-linux-gnu/bits/waitflags.h \
+ /usr/include/i386-linux-gnu/bits/waitstatus.h /usr/include/endian.h \
+ /usr/include/i386-linux-gnu/bits/endian.h \
+ /usr/include/i386-linux-gnu/bits/byteswap.h \
+ /usr/include/i386-linux-gnu/sys/types.h \
+ /usr/include/i386-linux-gnu/bits/types.h \
+ /usr/include/i386-linux-gnu/bits/typesizes.h /usr/include/time.h \
+ /usr/include/i386-linux-gnu/sys/select.h \
+ /usr/include/i386-linux-gnu/bits/select.h \
+ /usr/include/i386-linux-gnu/bits/sigset.h \
+ /usr/include/i386-linux-gnu/bits/time.h \
+ /usr/include/i386-linux-gnu/sys/sysmacros.h \
+ /usr/include/i386-linux-gnu/bits/pthreadtypes.h /usr/include/alloca.h \
+ /usr/include/stdio.h /usr/include/libio.h /usr/include/_G_config.h \
+ /usr/include/wchar.h /usr/lib/gcc/i686-linux-gnu/4.6.1/include/stdarg.h \
+ /usr/include/i386-linux-gnu/bits/stdio_lim.h \
+ /usr/include/i386-linux-gnu/bits/sys_errlist.h /usr/include/string.h \
+ /usr/include/xlocale.h /usr/include/i386-linux-gnu/sys/mman.h \
+ /usr/include/i386-linux-gnu/bits/mman.h /usr/include/fcntl.h \
+ /usr/include/i386-linux-gnu/bits/fcntl.h \
+ /usr/include/i386-linux-gnu/bits/stat.h /usr/include/byteswap.h \
+ /usr/include/search.h
+image.o: /home/lintel/u-boot-ddnas/common/image.c \
+ /home/lintel/u-boot-ddnas/tools/mkimage.h \
+ /home/lintel/u-boot-ddnas/tools/os_support.h \
+ /home/lintel/u-boot-ddnas/include/compiler.h \
+ /usr/lib/gcc/i686-linux-gnu/4.6.1/include/stddef.h \
+ /usr/lib/gcc/i686-linux-gnu/4.6.1/include/stdint.h /usr/include/stdint.h \
+ /usr/include/features.h /usr/include/i386-linux-gnu/bits/predefs.h \
+ /usr/include/i386-linux-gnu/sys/cdefs.h \
+ /usr/include/i386-linux-gnu/bits/wordsize.h \
+ /usr/include/i386-linux-gnu/gnu/stubs.h \
+ /usr/include/i386-linux-gnu/gnu/stubs-32.h \
+ /usr/include/i386-linux-gnu/bits/wchar.h /usr/include/errno.h \
+ /usr/include/i386-linux-gnu/bits/errno.h /usr/include/linux/errno.h \
+ /usr/include/i386-linux-gnu/asm/errno.h /usr/include/asm-generic/errno.h \
+ /usr/include/asm-generic/errno-base.h /usr/include/stdlib.h \
+ /usr/include/i386-linux-gnu/bits/waitflags.h \
+ /usr/include/i386-linux-gnu/bits/waitstatus.h /usr/include/endian.h \
+ /usr/include/i386-linux-gnu/bits/endian.h \
+ /usr/include/i386-linux-gnu/bits/byteswap.h \
+ /usr/include/i386-linux-gnu/sys/types.h \
+ /usr/include/i386-linux-gnu/bits/types.h \
+ /usr/include/i386-linux-gnu/bits/typesizes.h /usr/include/time.h \
+ /usr/include/i386-linux-gnu/sys/select.h \
+ /usr/include/i386-linux-gnu/bits/select.h \
+ /usr/include/i386-linux-gnu/bits/sigset.h \
+ /usr/include/i386-linux-gnu/bits/time.h \
+ /usr/include/i386-linux-gnu/sys/sysmacros.h \
+ /usr/include/i386-linux-gnu/bits/pthreadtypes.h /usr/include/alloca.h \
+ /usr/include/stdio.h /usr/include/libio.h /usr/include/_G_config.h \
+ /usr/include/wchar.h /usr/lib/gcc/i686-linux-gnu/4.6.1/include/stdarg.h \
+ /usr/include/i386-linux-gnu/bits/stdio_lim.h \
+ /usr/include/i386-linux-gnu/bits/sys_errlist.h /usr/include/string.h \
+ /usr/include/xlocale.h /usr/include/i386-linux-gnu/sys/mman.h \
+ /usr/include/i386-linux-gnu/bits/mman.h /usr/include/fcntl.h \
+ /usr/include/i386-linux-gnu/bits/fcntl.h \
+ /usr/include/i386-linux-gnu/bits/stat.h /usr/include/byteswap.h \
+ /usr/include/i386-linux-gnu/sys/stat.h /usr/include/unistd.h \
+ /usr/include/i386-linux-gnu/bits/posix_opt.h \
+ /usr/include/i386-linux-gnu/bits/environments.h \
+ /usr/include/i386-linux-gnu/bits/confname.h /usr/include/getopt.h \
+ /home/lintel/u-boot-ddnas/include/sha1.h \
+ /home/lintel/u-boot-ddnas/tools/fdt_host.h \
+ /home/lintel/u-boot-ddnas/tools/../include/fdt.h \
+ /home/lintel/u-boot-ddnas/tools/../include/libfdt.h \
+ /home/lintel/u-boot-ddnas/include/libfdt_env.h \
+ /home/lintel/u-boot-ddnas/include/compiler.h \
+ /home/lintel/u-boot-ddnas/include/fdt.h \
+ /home/lintel/u-boot-ddnas/tools/../include/fdt_support.h \
+ /home/lintel/u-boot-ddnas/include/u-boot/md5.h \
+ /home/lintel/u-boot-ddnas/include/image.h \
+ /home/lintel/u-boot-ddnas/include/libfdt.h \
+ /home/lintel/u-boot-ddnas/include/fdt_support.h
+crc32.o: /home/lintel/u-boot-ddnas/lib/crc32.c \
+ /home/lintel/u-boot-ddnas/include/compiler.h \
+ /usr/lib/gcc/i686-linux-gnu/4.6.1/include/stddef.h \
+ /usr/lib/gcc/i686-linux-gnu/4.6.1/include/stdint.h /usr/include/stdint.h \
+ /usr/include/features.h /usr/include/i386-linux-gnu/bits/predefs.h \
+ /usr/include/i386-linux-gnu/sys/cdefs.h \
+ /usr/include/i386-linux-gnu/bits/wordsize.h \
+ /usr/include/i386-linux-gnu/gnu/stubs.h \
+ /usr/include/i386-linux-gnu/gnu/stubs-32.h \
+ /usr/include/i386-linux-gnu/bits/wchar.h /usr/include/errno.h \
+ /usr/include/i386-linux-gnu/bits/errno.h /usr/include/linux/errno.h \
+ /usr/include/i386-linux-gnu/asm/errno.h /usr/include/asm-generic/errno.h \
+ /usr/include/asm-generic/errno-base.h /usr/include/stdlib.h \
+ /usr/include/i386-linux-gnu/bits/waitflags.h \
+ /usr/include/i386-linux-gnu/bits/waitstatus.h /usr/include/endian.h \
+ /usr/include/i386-linux-gnu/bits/endian.h \
+ /usr/include/i386-linux-gnu/bits/byteswap.h \
+ /usr/include/i386-linux-gnu/sys/types.h \
+ /usr/include/i386-linux-gnu/bits/types.h \
+ /usr/include/i386-linux-gnu/bits/typesizes.h /usr/include/time.h \
+ /usr/include/i386-linux-gnu/sys/select.h \
+ /usr/include/i386-linux-gnu/bits/select.h \
+ /usr/include/i386-linux-gnu/bits/sigset.h \
+ /usr/include/i386-linux-gnu/bits/time.h \
+ /usr/include/i386-linux-gnu/sys/sysmacros.h \
+ /usr/include/i386-linux-gnu/bits/pthreadtypes.h /usr/include/alloca.h \
+ /usr/include/stdio.h /usr/include/libio.h /usr/include/_G_config.h \
+ /usr/include/wchar.h /usr/lib/gcc/i686-linux-gnu/4.6.1/include/stdarg.h \
+ /usr/include/i386-linux-gnu/bits/stdio_lim.h \
+ /usr/include/i386-linux-gnu/bits/sys_errlist.h /usr/include/string.h \
+ /usr/include/xlocale.h /usr/include/i386-linux-gnu/sys/mman.h \
+ /usr/include/i386-linux-gnu/bits/mman.h /usr/include/fcntl.h \
+ /usr/include/i386-linux-gnu/bits/fcntl.h \
+ /usr/include/i386-linux-gnu/bits/stat.h /usr/include/byteswap.h \
+ /home/lintel/u-boot-ddnas/include/u-boot/crc.h \
+ /home/lintel/u-boot-ddnas/include/u-boot/zlib.h
+md5.o: /home/lintel/u-boot-ddnas/lib/md5.c \
+ /home/lintel/u-boot-ddnas/include/compiler.h \
+ /usr/lib/gcc/i686-linux-gnu/4.6.1/include/stddef.h \
+ /usr/lib/gcc/i686-linux-gnu/4.6.1/include/stdint.h /usr/include/stdint.h \
+ /usr/include/features.h /usr/include/i386-linux-gnu/bits/predefs.h \
+ /usr/include/i386-linux-gnu/sys/cdefs.h \
+ /usr/include/i386-linux-gnu/bits/wordsize.h \
+ /usr/include/i386-linux-gnu/gnu/stubs.h \
+ /usr/include/i386-linux-gnu/gnu/stubs-32.h \
+ /usr/include/i386-linux-gnu/bits/wchar.h /usr/include/errno.h \
+ /usr/include/i386-linux-gnu/bits/errno.h /usr/include/linux/errno.h \
+ /usr/include/i386-linux-gnu/asm/errno.h /usr/include/asm-generic/errno.h \
+ /usr/include/asm-generic/errno-base.h /usr/include/stdlib.h \
+ /usr/include/i386-linux-gnu/bits/waitflags.h \
+ /usr/include/i386-linux-gnu/bits/waitstatus.h /usr/include/endian.h \
+ /usr/include/i386-linux-gnu/bits/endian.h \
+ /usr/include/i386-linux-gnu/bits/byteswap.h \
+ /usr/include/i386-linux-gnu/sys/types.h \
+ /usr/include/i386-linux-gnu/bits/types.h \
+ /usr/include/i386-linux-gnu/bits/typesizes.h /usr/include/time.h \
+ /usr/include/i386-linux-gnu/sys/select.h \
+ /usr/include/i386-linux-gnu/bits/select.h \
+ /usr/include/i386-linux-gnu/bits/sigset.h \
+ /usr/include/i386-linux-gnu/bits/time.h \
+ /usr/include/i386-linux-gnu/sys/sysmacros.h \
+ /usr/include/i386-linux-gnu/bits/pthreadtypes.h /usr/include/alloca.h \
+ /usr/include/stdio.h /usr/include/libio.h /usr/include/_G_config.h \
+ /usr/include/wchar.h /usr/lib/gcc/i686-linux-gnu/4.6.1/include/stdarg.h \
+ /usr/include/i386-linux-gnu/bits/stdio_lim.h \
+ /usr/include/i386-linux-gnu/bits/sys_errlist.h /usr/include/string.h \
+ /usr/include/xlocale.h /usr/include/i386-linux-gnu/sys/mman.h \
+ /usr/include/i386-linux-gnu/bits/mman.h /usr/include/fcntl.h \
+ /usr/include/i386-linux-gnu/bits/fcntl.h \
+ /usr/include/i386-linux-gnu/bits/stat.h /usr/include/byteswap.h \
+ /home/lintel/u-boot-ddnas/include/u-boot/md5.h
+sha1.o: /home/lintel/u-boot-ddnas/lib/sha1.c /usr/include/string.h \
+ /usr/include/features.h /usr/include/i386-linux-gnu/bits/predefs.h \
+ /usr/include/i386-linux-gnu/sys/cdefs.h \
+ /usr/include/i386-linux-gnu/bits/wordsize.h \
+ /usr/include/i386-linux-gnu/gnu/stubs.h \
+ /usr/include/i386-linux-gnu/gnu/stubs-32.h \
+ /usr/lib/gcc/i686-linux-gnu/4.6.1/include/stddef.h \
+ /usr/include/xlocale.h /home/lintel/u-boot-ddnas/include/watchdog.h \
+ /home/lintel/u-boot-ddnas/include/sha1.h
+envcrc.o: /home/lintel/u-boot-ddnas/tools/envcrc.c /usr/include/errno.h \
+ /usr/include/features.h /usr/include/i386-linux-gnu/bits/predefs.h \
+ /usr/include/i386-linux-gnu/sys/cdefs.h \
+ /usr/include/i386-linux-gnu/bits/wordsize.h \
+ /usr/include/i386-linux-gnu/gnu/stubs.h \
+ /usr/include/i386-linux-gnu/gnu/stubs-32.h \
+ /usr/include/i386-linux-gnu/bits/errno.h /usr/include/linux/errno.h \
+ /usr/include/i386-linux-gnu/asm/errno.h /usr/include/asm-generic/errno.h \
+ /usr/include/asm-generic/errno-base.h /usr/include/stdio.h \
+ /usr/lib/gcc/i686-linux-gnu/4.6.1/include/stddef.h \
+ /usr/include/i386-linux-gnu/bits/types.h \
+ /usr/include/i386-linux-gnu/bits/typesizes.h /usr/include/libio.h \
+ /usr/include/_G_config.h /usr/include/wchar.h \
+ /usr/lib/gcc/i686-linux-gnu/4.6.1/include/stdarg.h \
+ /usr/include/i386-linux-gnu/bits/stdio_lim.h \
+ /usr/include/i386-linux-gnu/bits/sys_errlist.h \
+ /usr/lib/gcc/i686-linux-gnu/4.6.1/include/stdint.h /usr/include/stdint.h \
+ /usr/include/i386-linux-gnu/bits/wchar.h /usr/include/stdlib.h \
+ /usr/include/i386-linux-gnu/bits/waitflags.h \
+ /usr/include/i386-linux-gnu/bits/waitstatus.h /usr/include/endian.h \
+ /usr/include/i386-linux-gnu/bits/endian.h \
+ /usr/include/i386-linux-gnu/bits/byteswap.h \
+ /usr/include/i386-linux-gnu/sys/types.h /usr/include/time.h \
+ /usr/include/i386-linux-gnu/sys/select.h \
+ /usr/include/i386-linux-gnu/bits/select.h \
+ /usr/include/i386-linux-gnu/bits/sigset.h \
+ /usr/include/i386-linux-gnu/bits/time.h \
+ /usr/include/i386-linux-gnu/sys/sysmacros.h \
+ /usr/include/i386-linux-gnu/bits/pthreadtypes.h /usr/include/alloca.h \
+ /usr/include/string.h /usr/include/xlocale.h /usr/include/unistd.h \
+ /usr/include/i386-linux-gnu/bits/posix_opt.h \
+ /usr/include/i386-linux-gnu/bits/environments.h \
+ /usr/include/i386-linux-gnu/bits/confname.h /usr/include/getopt.h \
+ /home/lintel/u-boot-ddnas/include/config.h \
+ /home/lintel/u-boot-ddnas/include/config_cmd_defaults.h \
+ /home/lintel/u-boot-ddnas/include/config_defaults.h \
+ /home/lintel/u-boot-ddnas/include/configs/ddnas.h \
+ /home/lintel/u-boot-ddnas/include/config_cmd_default.h \
+ /home/lintel/u-boot-ddnas/include/configs/mv-common.h \
+ /home/lintel/u-boot-ddnas/include/asm/arch/config.h \
+ /home/lintel/u-boot-ddnas/include/asm/arch/kw88f6281.h \
+ /home/lintel/u-boot-ddnas/include/asm/arch/kirkwood.h \
+ /home/lintel/u-boot-ddnas/include/asm/config.h
+gen_eth_addr.o: /home/lintel/u-boot-ddnas/tools/gen_eth_addr.c \
+ /usr/include/stdio.h /usr/include/features.h \
+ /usr/include/i386-linux-gnu/bits/predefs.h \
+ /usr/include/i386-linux-gnu/sys/cdefs.h \
+ /usr/include/i386-linux-gnu/bits/wordsize.h \
+ /usr/include/i386-linux-gnu/gnu/stubs.h \
+ /usr/include/i386-linux-gnu/gnu/stubs-32.h \
+ /usr/lib/gcc/i686-linux-gnu/4.6.1/include/stddef.h \
+ /usr/include/i386-linux-gnu/bits/types.h \
+ /usr/include/i386-linux-gnu/bits/typesizes.h /usr/include/libio.h \
+ /usr/include/_G_config.h /usr/include/wchar.h \
+ /usr/lib/gcc/i686-linux-gnu/4.6.1/include/stdarg.h \
+ /usr/include/i386-linux-gnu/bits/stdio_lim.h \
+ /usr/include/i386-linux-gnu/bits/sys_errlist.h /usr/include/stdlib.h \
+ /usr/include/i386-linux-gnu/bits/waitflags.h \
+ /usr/include/i386-linux-gnu/bits/waitstatus.h /usr/include/endian.h \
+ /usr/include/i386-linux-gnu/bits/endian.h \
+ /usr/include/i386-linux-gnu/bits/byteswap.h \
+ /usr/include/i386-linux-gnu/sys/types.h /usr/include/time.h \
+ /usr/include/i386-linux-gnu/sys/select.h \
+ /usr/include/i386-linux-gnu/bits/select.h \
+ /usr/include/i386-linux-gnu/bits/sigset.h \
+ /usr/include/i386-linux-gnu/bits/time.h \
+ /usr/include/i386-linux-gnu/sys/sysmacros.h \
+ /usr/include/i386-linux-gnu/bits/pthreadtypes.h /usr/include/alloca.h \
+ /usr/include/unistd.h /usr/include/i386-linux-gnu/bits/posix_opt.h \
+ /usr/include/i386-linux-gnu/bits/environments.h \
+ /usr/include/i386-linux-gnu/bits/confname.h /usr/include/getopt.h \
+ /usr/include/xlocale.h
+img2srec.o: /home/lintel/u-boot-ddnas/tools/img2srec.c \
+ /home/lintel/u-boot-ddnas/tools/os_support.h \
+ /home/lintel/u-boot-ddnas/include/compiler.h \
+ /usr/lib/gcc/i686-linux-gnu/4.6.1/include/stddef.h \
+ /usr/lib/gcc/i686-linux-gnu/4.6.1/include/stdint.h /usr/include/stdint.h \
+ /usr/include/features.h /usr/include/i386-linux-gnu/bits/predefs.h \
+ /usr/include/i386-linux-gnu/sys/cdefs.h \
+ /usr/include/i386-linux-gnu/bits/wordsize.h \
+ /usr/include/i386-linux-gnu/gnu/stubs.h \
+ /usr/include/i386-linux-gnu/gnu/stubs-32.h \
+ /usr/include/i386-linux-gnu/bits/wchar.h /usr/include/errno.h \
+ /usr/include/i386-linux-gnu/bits/errno.h /usr/include/linux/errno.h \
+ /usr/include/i386-linux-gnu/asm/errno.h /usr/include/asm-generic/errno.h \
+ /usr/include/asm-generic/errno-base.h /usr/include/stdlib.h \
+ /usr/include/i386-linux-gnu/bits/waitflags.h \
+ /usr/include/i386-linux-gnu/bits/waitstatus.h /usr/include/endian.h \
+ /usr/include/i386-linux-gnu/bits/endian.h \
+ /usr/include/i386-linux-gnu/bits/byteswap.h \
+ /usr/include/i386-linux-gnu/sys/types.h \
+ /usr/include/i386-linux-gnu/bits/types.h \
+ /usr/include/i386-linux-gnu/bits/typesizes.h /usr/include/time.h \
+ /usr/include/i386-linux-gnu/sys/select.h \
+ /usr/include/i386-linux-gnu/bits/select.h \
+ /usr/include/i386-linux-gnu/bits/sigset.h \
+ /usr/include/i386-linux-gnu/bits/time.h \
+ /usr/include/i386-linux-gnu/sys/sysmacros.h \
+ /usr/include/i386-linux-gnu/bits/pthreadtypes.h /usr/include/alloca.h \
+ /usr/include/stdio.h /usr/include/libio.h /usr/include/_G_config.h \
+ /usr/include/wchar.h /usr/lib/gcc/i686-linux-gnu/4.6.1/include/stdarg.h \
+ /usr/include/i386-linux-gnu/bits/stdio_lim.h \
+ /usr/include/i386-linux-gnu/bits/sys_errlist.h /usr/include/string.h \
+ /usr/include/xlocale.h /usr/include/i386-linux-gnu/sys/mman.h \
+ /usr/include/i386-linux-gnu/bits/mman.h /usr/include/fcntl.h \
+ /usr/include/i386-linux-gnu/bits/fcntl.h \
+ /usr/include/i386-linux-gnu/bits/stat.h /usr/include/byteswap.h \
+ /usr/lib/gcc/i686-linux-gnu/4.6.1/include/stdbool.h /usr/include/ctype.h \
+ /usr/include/elf.h /usr/include/unistd.h \
+ /usr/include/i386-linux-gnu/bits/posix_opt.h \
+ /usr/include/i386-linux-gnu/bits/environments.h \
+ /usr/include/i386-linux-gnu/bits/confname.h /usr/include/getopt.h
+ncb.o: /home/lintel/u-boot-ddnas/tools/ncb.c /usr/include/stdio.h \
+ /usr/include/features.h /usr/include/i386-linux-gnu/bits/predefs.h \
+ /usr/include/i386-linux-gnu/sys/cdefs.h \
+ /usr/include/i386-linux-gnu/bits/wordsize.h \
+ /usr/include/i386-linux-gnu/gnu/stubs.h \
+ /usr/include/i386-linux-gnu/gnu/stubs-32.h \
+ /usr/lib/gcc/i686-linux-gnu/4.6.1/include/stddef.h \
+ /usr/include/i386-linux-gnu/bits/types.h \
+ /usr/include/i386-linux-gnu/bits/typesizes.h /usr/include/libio.h \
+ /usr/include/_G_config.h /usr/include/wchar.h \
+ /usr/lib/gcc/i686-linux-gnu/4.6.1/include/stdarg.h \
+ /usr/include/i386-linux-gnu/bits/stdio_lim.h \
+ /usr/include/i386-linux-gnu/bits/sys_errlist.h /usr/include/stdlib.h \
+ /usr/include/i386-linux-gnu/bits/waitflags.h \
+ /usr/include/i386-linux-gnu/bits/waitstatus.h /usr/include/endian.h \
+ /usr/include/i386-linux-gnu/bits/endian.h \
+ /usr/include/i386-linux-gnu/bits/byteswap.h \
+ /usr/include/i386-linux-gnu/sys/types.h /usr/include/time.h \
+ /usr/include/i386-linux-gnu/sys/select.h \
+ /usr/include/i386-linux-gnu/bits/select.h \
+ /usr/include/i386-linux-gnu/bits/sigset.h \
+ /usr/include/i386-linux-gnu/bits/time.h \
+ /usr/include/i386-linux-gnu/sys/sysmacros.h \
+ /usr/include/i386-linux-gnu/bits/pthreadtypes.h /usr/include/alloca.h \
+ /usr/include/unistd.h /usr/include/i386-linux-gnu/bits/posix_opt.h \
+ /usr/include/i386-linux-gnu/bits/environments.h \
+ /usr/include/i386-linux-gnu/bits/confname.h /usr/include/getopt.h \
+ /usr/include/i386-linux-gnu/sys/socket.h \
+ /usr/include/i386-linux-gnu/sys/uio.h \
+ /usr/include/i386-linux-gnu/bits/uio.h \
+ /usr/include/i386-linux-gnu/bits/socket.h \
+ /usr/include/i386-linux-gnu/bits/sockaddr.h \
+ /usr/include/i386-linux-gnu/asm/socket.h \
+ /usr/include/asm-generic/socket.h \
+ /usr/include/i386-linux-gnu/asm/sockios.h \
+ /usr/include/asm-generic/sockios.h /usr/include/netinet/in.h \
+ /usr/lib/gcc/i686-linux-gnu/4.6.1/include/stdint.h /usr/include/stdint.h \
+ /usr/include/i386-linux-gnu/bits/wchar.h \
+ /usr/include/i386-linux-gnu/bits/in.h
+fdt.o: /home/lintel/u-boot-ddnas/lib/libfdt/fdt.c \
+ /home/lintel/u-boot-ddnas/include/libfdt_env.h \
+ /home/lintel/u-boot-ddnas/include/compiler.h \
+ /usr/lib/gcc/i686-linux-gnu/4.6.1/include/stddef.h \
+ /usr/lib/gcc/i686-linux-gnu/4.6.1/include/stdint.h /usr/include/stdint.h \
+ /usr/include/features.h /usr/include/i386-linux-gnu/bits/predefs.h \
+ /usr/include/i386-linux-gnu/sys/cdefs.h \
+ /usr/include/i386-linux-gnu/bits/wordsize.h \
+ /usr/include/i386-linux-gnu/gnu/stubs.h \
+ /usr/include/i386-linux-gnu/gnu/stubs-32.h \
+ /usr/include/i386-linux-gnu/bits/wchar.h /usr/include/errno.h \
+ /usr/include/i386-linux-gnu/bits/errno.h /usr/include/linux/errno.h \
+ /usr/include/i386-linux-gnu/asm/errno.h /usr/include/asm-generic/errno.h \
+ /usr/include/asm-generic/errno-base.h /usr/include/stdlib.h \
+ /usr/include/i386-linux-gnu/bits/waitflags.h \
+ /usr/include/i386-linux-gnu/bits/waitstatus.h /usr/include/endian.h \
+ /usr/include/i386-linux-gnu/bits/endian.h \
+ /usr/include/i386-linux-gnu/bits/byteswap.h \
+ /usr/include/i386-linux-gnu/sys/types.h \
+ /usr/include/i386-linux-gnu/bits/types.h \
+ /usr/include/i386-linux-gnu/bits/typesizes.h /usr/include/time.h \
+ /usr/include/i386-linux-gnu/sys/select.h \
+ /usr/include/i386-linux-gnu/bits/select.h \
+ /usr/include/i386-linux-gnu/bits/sigset.h \
+ /usr/include/i386-linux-gnu/bits/time.h \
+ /usr/include/i386-linux-gnu/sys/sysmacros.h \
+ /usr/include/i386-linux-gnu/bits/pthreadtypes.h /usr/include/alloca.h \
+ /usr/include/stdio.h /usr/include/libio.h /usr/include/_G_config.h \
+ /usr/include/wchar.h /usr/lib/gcc/i686-linux-gnu/4.6.1/include/stdarg.h \
+ /usr/include/i386-linux-gnu/bits/stdio_lim.h \
+ /usr/include/i386-linux-gnu/bits/sys_errlist.h /usr/include/string.h \
+ /usr/include/xlocale.h /usr/include/i386-linux-gnu/sys/mman.h \
+ /usr/include/i386-linux-gnu/bits/mman.h /usr/include/fcntl.h \
+ /usr/include/i386-linux-gnu/bits/fcntl.h \
+ /usr/include/i386-linux-gnu/bits/stat.h /usr/include/byteswap.h \
+ /home/lintel/u-boot-ddnas/tools/fdt_host.h \
+ /home/lintel/u-boot-ddnas/tools/../include/fdt.h \
+ /home/lintel/u-boot-ddnas/tools/../include/libfdt.h \
+ /home/lintel/u-boot-ddnas/include/fdt.h \
+ /home/lintel/u-boot-ddnas/tools/../include/fdt_support.h \
+ /home/lintel/u-boot-ddnas/lib/libfdt/libfdt_internal.h
+fdt_ro.o: /home/lintel/u-boot-ddnas/lib/libfdt/fdt_ro.c \
+ /home/lintel/u-boot-ddnas/include/libfdt_env.h \
+ /home/lintel/u-boot-ddnas/include/compiler.h \
+ /usr/lib/gcc/i686-linux-gnu/4.6.1/include/stddef.h \
+ /usr/lib/gcc/i686-linux-gnu/4.6.1/include/stdint.h /usr/include/stdint.h \
+ /usr/include/features.h /usr/include/i386-linux-gnu/bits/predefs.h \
+ /usr/include/i386-linux-gnu/sys/cdefs.h \
+ /usr/include/i386-linux-gnu/bits/wordsize.h \
+ /usr/include/i386-linux-gnu/gnu/stubs.h \
+ /usr/include/i386-linux-gnu/gnu/stubs-32.h \
+ /usr/include/i386-linux-gnu/bits/wchar.h /usr/include/errno.h \
+ /usr/include/i386-linux-gnu/bits/errno.h /usr/include/linux/errno.h \
+ /usr/include/i386-linux-gnu/asm/errno.h /usr/include/asm-generic/errno.h \
+ /usr/include/asm-generic/errno-base.h /usr/include/stdlib.h \
+ /usr/include/i386-linux-gnu/bits/waitflags.h \
+ /usr/include/i386-linux-gnu/bits/waitstatus.h /usr/include/endian.h \
+ /usr/include/i386-linux-gnu/bits/endian.h \
+ /usr/include/i386-linux-gnu/bits/byteswap.h \
+ /usr/include/i386-linux-gnu/sys/types.h \
+ /usr/include/i386-linux-gnu/bits/types.h \
+ /usr/include/i386-linux-gnu/bits/typesizes.h /usr/include/time.h \
+ /usr/include/i386-linux-gnu/sys/select.h \
+ /usr/include/i386-linux-gnu/bits/select.h \
+ /usr/include/i386-linux-gnu/bits/sigset.h \
+ /usr/include/i386-linux-gnu/bits/time.h \
+ /usr/include/i386-linux-gnu/sys/sysmacros.h \
+ /usr/include/i386-linux-gnu/bits/pthreadtypes.h /usr/include/alloca.h \
+ /usr/include/stdio.h /usr/include/libio.h /usr/include/_G_config.h \
+ /usr/include/wchar.h /usr/lib/gcc/i686-linux-gnu/4.6.1/include/stdarg.h \
+ /usr/include/i386-linux-gnu/bits/stdio_lim.h \
+ /usr/include/i386-linux-gnu/bits/sys_errlist.h /usr/include/string.h \
+ /usr/include/xlocale.h /usr/include/i386-linux-gnu/sys/mman.h \
+ /usr/include/i386-linux-gnu/bits/mman.h /usr/include/fcntl.h \
+ /usr/include/i386-linux-gnu/bits/fcntl.h \
+ /usr/include/i386-linux-gnu/bits/stat.h /usr/include/byteswap.h \
+ /home/lintel/u-boot-ddnas/tools/fdt_host.h \
+ /home/lintel/u-boot-ddnas/tools/../include/fdt.h \
+ /home/lintel/u-boot-ddnas/tools/../include/libfdt.h \
+ /home/lintel/u-boot-ddnas/include/fdt.h \
+ /home/lintel/u-boot-ddnas/tools/../include/fdt_support.h \
+ /home/lintel/u-boot-ddnas/lib/libfdt/libfdt_internal.h
+fdt_rw.o: /home/lintel/u-boot-ddnas/lib/libfdt/fdt_rw.c \
+ /home/lintel/u-boot-ddnas/include/libfdt_env.h \
+ /home/lintel/u-boot-ddnas/include/compiler.h \
+ /usr/lib/gcc/i686-linux-gnu/4.6.1/include/stddef.h \
+ /usr/lib/gcc/i686-linux-gnu/4.6.1/include/stdint.h /usr/include/stdint.h \
+ /usr/include/features.h /usr/include/i386-linux-gnu/bits/predefs.h \
+ /usr/include/i386-linux-gnu/sys/cdefs.h \
+ /usr/include/i386-linux-gnu/bits/wordsize.h \
+ /usr/include/i386-linux-gnu/gnu/stubs.h \
+ /usr/include/i386-linux-gnu/gnu/stubs-32.h \
+ /usr/include/i386-linux-gnu/bits/wchar.h /usr/include/errno.h \
+ /usr/include/i386-linux-gnu/bits/errno.h /usr/include/linux/errno.h \
+ /usr/include/i386-linux-gnu/asm/errno.h /usr/include/asm-generic/errno.h \
+ /usr/include/asm-generic/errno-base.h /usr/include/stdlib.h \
+ /usr/include/i386-linux-gnu/bits/waitflags.h \
+ /usr/include/i386-linux-gnu/bits/waitstatus.h /usr/include/endian.h \
+ /usr/include/i386-linux-gnu/bits/endian.h \
+ /usr/include/i386-linux-gnu/bits/byteswap.h \
+ /usr/include/i386-linux-gnu/sys/types.h \
+ /usr/include/i386-linux-gnu/bits/types.h \
+ /usr/include/i386-linux-gnu/bits/typesizes.h /usr/include/time.h \
+ /usr/include/i386-linux-gnu/sys/select.h \
+ /usr/include/i386-linux-gnu/bits/select.h \
+ /usr/include/i386-linux-gnu/bits/sigset.h \
+ /usr/include/i386-linux-gnu/bits/time.h \
+ /usr/include/i386-linux-gnu/sys/sysmacros.h \
+ /usr/include/i386-linux-gnu/bits/pthreadtypes.h /usr/include/alloca.h \
+ /usr/include/stdio.h /usr/include/libio.h /usr/include/_G_config.h \
+ /usr/include/wchar.h /usr/lib/gcc/i686-linux-gnu/4.6.1/include/stdarg.h \
+ /usr/include/i386-linux-gnu/bits/stdio_lim.h \
+ /usr/include/i386-linux-gnu/bits/sys_errlist.h /usr/include/string.h \
+ /usr/include/xlocale.h /usr/include/i386-linux-gnu/sys/mman.h \
+ /usr/include/i386-linux-gnu/bits/mman.h /usr/include/fcntl.h \
+ /usr/include/i386-linux-gnu/bits/fcntl.h \
+ /usr/include/i386-linux-gnu/bits/stat.h /usr/include/byteswap.h \
+ /home/lintel/u-boot-ddnas/tools/fdt_host.h \
+ /home/lintel/u-boot-ddnas/tools/../include/fdt.h \
+ /home/lintel/u-boot-ddnas/tools/../include/libfdt.h \
+ /home/lintel/u-boot-ddnas/include/fdt.h \
+ /home/lintel/u-boot-ddnas/tools/../include/fdt_support.h \
+ /home/lintel/u-boot-ddnas/lib/libfdt/libfdt_internal.h
+fdt_strerror.o: /home/lintel/u-boot-ddnas/lib/libfdt/fdt_strerror.c \
+ /home/lintel/u-boot-ddnas/include/libfdt_env.h \
+ /home/lintel/u-boot-ddnas/include/compiler.h \
+ /usr/lib/gcc/i686-linux-gnu/4.6.1/include/stddef.h \
+ /usr/lib/gcc/i686-linux-gnu/4.6.1/include/stdint.h /usr/include/stdint.h \
+ /usr/include/features.h /usr/include/i386-linux-gnu/bits/predefs.h \
+ /usr/include/i386-linux-gnu/sys/cdefs.h \
+ /usr/include/i386-linux-gnu/bits/wordsize.h \
+ /usr/include/i386-linux-gnu/gnu/stubs.h \
+ /usr/include/i386-linux-gnu/gnu/stubs-32.h \
+ /usr/include/i386-linux-gnu/bits/wchar.h /usr/include/errno.h \
+ /usr/include/i386-linux-gnu/bits/errno.h /usr/include/linux/errno.h \
+ /usr/include/i386-linux-gnu/asm/errno.h /usr/include/asm-generic/errno.h \
+ /usr/include/asm-generic/errno-base.h /usr/include/stdlib.h \
+ /usr/include/i386-linux-gnu/bits/waitflags.h \
+ /usr/include/i386-linux-gnu/bits/waitstatus.h /usr/include/endian.h \
+ /usr/include/i386-linux-gnu/bits/endian.h \
+ /usr/include/i386-linux-gnu/bits/byteswap.h \
+ /usr/include/i386-linux-gnu/sys/types.h \
+ /usr/include/i386-linux-gnu/bits/types.h \
+ /usr/include/i386-linux-gnu/bits/typesizes.h /usr/include/time.h \
+ /usr/include/i386-linux-gnu/sys/select.h \
+ /usr/include/i386-linux-gnu/bits/select.h \
+ /usr/include/i386-linux-gnu/bits/sigset.h \
+ /usr/include/i386-linux-gnu/bits/time.h \
+ /usr/include/i386-linux-gnu/sys/sysmacros.h \
+ /usr/include/i386-linux-gnu/bits/pthreadtypes.h /usr/include/alloca.h \
+ /usr/include/stdio.h /usr/include/libio.h /usr/include/_G_config.h \
+ /usr/include/wchar.h /usr/lib/gcc/i686-linux-gnu/4.6.1/include/stdarg.h \
+ /usr/include/i386-linux-gnu/bits/stdio_lim.h \
+ /usr/include/i386-linux-gnu/bits/sys_errlist.h /usr/include/string.h \
+ /usr/include/xlocale.h /usr/include/i386-linux-gnu/sys/mman.h \
+ /usr/include/i386-linux-gnu/bits/mman.h /usr/include/fcntl.h \
+ /usr/include/i386-linux-gnu/bits/fcntl.h \
+ /usr/include/i386-linux-gnu/bits/stat.h /usr/include/byteswap.h \
+ /home/lintel/u-boot-ddnas/tools/fdt_host.h \
+ /home/lintel/u-boot-ddnas/tools/../include/fdt.h \
+ /home/lintel/u-boot-ddnas/tools/../include/libfdt.h \
+ /home/lintel/u-boot-ddnas/include/fdt.h \
+ /home/lintel/u-boot-ddnas/tools/../include/fdt_support.h \
+ /home/lintel/u-boot-ddnas/lib/libfdt/libfdt_internal.h
+fdt_wip.o: /home/lintel/u-boot-ddnas/lib/libfdt/fdt_wip.c \
+ /home/lintel/u-boot-ddnas/include/libfdt_env.h \
+ /home/lintel/u-boot-ddnas/include/compiler.h \
+ /usr/lib/gcc/i686-linux-gnu/4.6.1/include/stddef.h \
+ /usr/lib/gcc/i686-linux-gnu/4.6.1/include/stdint.h /usr/include/stdint.h \
+ /usr/include/features.h /usr/include/i386-linux-gnu/bits/predefs.h \
+ /usr/include/i386-linux-gnu/sys/cdefs.h \
+ /usr/include/i386-linux-gnu/bits/wordsize.h \
+ /usr/include/i386-linux-gnu/gnu/stubs.h \
+ /usr/include/i386-linux-gnu/gnu/stubs-32.h \
+ /usr/include/i386-linux-gnu/bits/wchar.h /usr/include/errno.h \
+ /usr/include/i386-linux-gnu/bits/errno.h /usr/include/linux/errno.h \
+ /usr/include/i386-linux-gnu/asm/errno.h /usr/include/asm-generic/errno.h \
+ /usr/include/asm-generic/errno-base.h /usr/include/stdlib.h \
+ /usr/include/i386-linux-gnu/bits/waitflags.h \
+ /usr/include/i386-linux-gnu/bits/waitstatus.h /usr/include/endian.h \
+ /usr/include/i386-linux-gnu/bits/endian.h \
+ /usr/include/i386-linux-gnu/bits/byteswap.h \
+ /usr/include/i386-linux-gnu/sys/types.h \
+ /usr/include/i386-linux-gnu/bits/types.h \
+ /usr/include/i386-linux-gnu/bits/typesizes.h /usr/include/time.h \
+ /usr/include/i386-linux-gnu/sys/select.h \
+ /usr/include/i386-linux-gnu/bits/select.h \
+ /usr/include/i386-linux-gnu/bits/sigset.h \
+ /usr/include/i386-linux-gnu/bits/time.h \
+ /usr/include/i386-linux-gnu/sys/sysmacros.h \
+ /usr/include/i386-linux-gnu/bits/pthreadtypes.h /usr/include/alloca.h \
+ /usr/include/stdio.h /usr/include/libio.h /usr/include/_G_config.h \
+ /usr/include/wchar.h /usr/lib/gcc/i686-linux-gnu/4.6.1/include/stdarg.h \
+ /usr/include/i386-linux-gnu/bits/stdio_lim.h \
+ /usr/include/i386-linux-gnu/bits/sys_errlist.h /usr/include/string.h \
+ /usr/include/xlocale.h /usr/include/i386-linux-gnu/sys/mman.h \
+ /usr/include/i386-linux-gnu/bits/mman.h /usr/include/fcntl.h \
+ /usr/include/i386-linux-gnu/bits/fcntl.h \
+ /usr/include/i386-linux-gnu/bits/stat.h /usr/include/byteswap.h \
+ /home/lintel/u-boot-ddnas/tools/fdt_host.h \
+ /home/lintel/u-boot-ddnas/tools/../include/fdt.h \
+ /home/lintel/u-boot-ddnas/tools/../include/libfdt.h \
+ /home/lintel/u-boot-ddnas/include/fdt.h \
+ /home/lintel/u-boot-ddnas/tools/../include/fdt_support.h \
+ /home/lintel/u-boot-ddnas/lib/libfdt/libfdt_internal.h

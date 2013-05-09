@@ -1,0 +1,1 @@
+ctype.o: ctype.c /home/lintel/u-boot-ddnas/include/linux/ctype.h
